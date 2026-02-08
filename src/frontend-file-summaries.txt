@@ -1,0 +1,22 @@
+{
+  "frontend/src/App.tsx": "Main application component with authentication flow, role-based routing (Realtor/Admin dashboards), profile setup modal, and theme provider integration.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations with simplified photo upload that works with the current backend interface (stores blob IDs without actual blob data upload).",
+  "frontend/src/components/Header.tsx": "Application header with logo, user profile display, role badge, and login/logout functionality.",
+  "frontend/src/components/Footer.tsx": "Footer component with Dallas skyline branding, social media icons (Instagram, Facebook, LinkedIn, X), and caffeine.ai attribution with love icon.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup with name input and role selection (Realtor/Admin).",
+  "frontend/src/pages/LandingPage.tsx": "Landing page with hero section, features showcase, enhanced pricing plans, contact form, and functional \"Get Started\" buttons that trigger Internet Identity login flow.",
+  "frontend/src/pages/RealtorDashboard.tsx": "Realtor dashboard with statistics cards, tabbed interface for properties, service requests, and new DFW Insights tab with live market data.",
+  "frontend/src/pages/AdminDashboard.tsx": "Admin dashboard with status-based statistics, tabbed interface for managing service requests, contact forms, and new DFW Insights tab with live market data.",
+  "frontend/src/components/realtor/PropertiesTab.tsx": "Property portfolio grid component with \"Get Directions\" button that opens DirectionsDialog for manual starting point entry before navigation.",
+  "frontend/src/components/realtor/ServiceRequestsTab.tsx": "Service requests list component with status badges, urgency indicators, and clickable cards that open detailed views with property information and directions functionality.",
+  "frontend/src/components/realtor/AddPropertyDialog.tsx": "Dialog form for adding new properties with DFW city dropdown validation and address input fields.",
+  "frontend/src/components/realtor/CreateRequestDialog.tsx": "Dialog form for creating service requests with property selection, urgency levels, description, and photo file selection (upload functionality simplified due to backend limitations).",
+  "frontend/src/components/realtor/RequestDetailsDialog.tsx": "Service request detail dialog with property information, status badge, and directions button that opens DirectionsDialog for navigation with manual starting point entry.",
+  "frontend/src/components/admin/AdminRequestsTab.tsx": "Admin view of all service requests with search, status filtering, and clickable cards for detailed management.",
+  "frontend/src/components/admin/AdminRequestDetailsDialog.tsx": "Admin service request detail dialog with status update controls, property information, and directions button that opens DirectionsDialog for navigation with manual starting point entry.",
+  "frontend/src/components/admin/AdminContactFormsTab.tsx": "Displays all contact form submissions with contact information and messages for admin review.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring navy blue primary, gold accents, and custom utility classes for luxury real estate branding.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended navy and gold color tokens, custom design system for professional real estate aesthetic.",
+  "frontend/src/components/DFWInsights.tsx": "Enhanced DFW Insights component with prominent live weather display (temperature, condition, date, time), automatic 5-minute refresh interval, and responsive Dallas-themed styling for both desktop and mobile.",
+  "frontend/src/components/DirectionsDialog.tsx": "New dialog component that prompts users to enter their starting location before opening map directions, with auto-filled destination from property data and cross-platform support for iOS (Apple Maps) and Android (Google Maps)."
+}
